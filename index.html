@@ -5,35 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Tribute Website | A.P.J. Kalam </title>
     <link rel="stylesheet" href="style.css">
-
+    <!-- Add Bootstrap CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="content">
 
-         <div class="top_section">
-            <div class=" image_container">
-                <img src="Images/image.png">
+            <div class="top_section row">
+                <!-- Image Container -->
+                <div class="col-12 col-md-6">
+                    <div class="image_container">
+                        <img src="Images/image.png" class="img-fluid" alt="A.P.J. Abdul Kalam">
+                    </div>
+                </div>
+                <!-- Text Information -->
+                <div class="col-12 col-md-6">
+                    <h1>A.P.J. Abdul Kalam</h1>
+                    <h4>1931 - 2015</h4>
+                </div>
             </div>
-     <div>
-    <h1>A.P.J. Abdul Kalam</h1>
-    <h4>1931 - 2015</h4>
-    </div>
-      </div>
 
-      <section class="about_section">
-        <h2><b>Missile Man of India-</b></h2>
-        <p><b>Dr. A.P.J. Abdul Kalam </b>(1931–2015), known as the "Missile Man of India," was a renowned Indian aerospace scientist and the 11th President of India from 2002 to 2007. Born in Rameswaram, Tamil Nadu, to a modest family, Kalam's early life was marked by curiosity and hard work. He studied physics and aerospace engineering, eventually joining the Defence Research and Development Organisation (DRDO) and later the Indian Space Research Organisation (ISRO), where he played a crucial role in India's civilian space program and military missile development.
+            <section class="about_section">
+                <h2><b>Missile Man of India-</b></h2>
+                <p><b>Dr. A.P.J. Abdul Kalam </b>(1931–2015), known as the "Missile Man of India," was a renowned Indian aerospace scientist and the 11th President of India from 2002 to 2007. Born in Rameswaram, Tamil Nadu, to a modest family, Kalam's early life was marked by curiosity and hard work. He studied physics and aerospace engineering, eventually joining the Defence Research and Development Organisation (DRDO) and later the Indian Space Research Organisation (ISRO), where he played a crucial role in India's civilian space program and military missile development.
+                    Kalam was a key figure in the Pokhran-II nuclear tests in 1998 and contributed to developing India's first indigenous satellite launch vehicle, SLV-III. Known for his simplicity, vision for a self-reliant India, and passion for education, he spent his later years inspiring young people. Dr. Kalam passed away in 2015 while delivering a lecture at the Indian Institute of Management, Shillong, leaving behind a legacy of dedication to science, education, and national development.</p>
+            </section>
 
-            Kalam was a key figure in the Pokhran-II nuclear tests in 1998 and contributed to developing India's first indigenous satellite launch vehicle, SLV-III. Known for his simplicity, vision for a self-reliant India, and passion for education, he spent his later years inspiring young people. Dr. Kalam passed away in 2015 while delivering a lecture at the Indian Institute of Management, Shillong, leaving behind a legacy of dedication to science, education, and national development.</p>
-      </section>
-      <footer >
-        <p>Read more about A.P.J. Abdul Kalam on <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam">Wikipedia</a></p>
-      </footer>
-      <footer style="text-align: center; padding: 12px; background-color: #e5e5fd; font-size: 18px; color: #555; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; margin: 0;">
-        Made with ❤️ by <strong><i>Devansh Singh</i></strong>
-    </footer>
-      </div>
+            <footer>
+                <p>Read more about A.P.J. Abdul Kalam on <a href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank">Wikipedia</a></p>
+            </footer>
+            <footer style="text-align: center; padding: 12px; background-color: #e5e5fd; font-size: 18px; color: #555; position: fixed; bottom: 0; left: 0; right: 0; width: 100%; margin: 0;">
+                Made with ❤️ by <strong><i>Devansh Singh</i></strong>
+            </footer>
+        </div>
     </div>
+
+    <!-- Add Bootstrap JS and Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
